@@ -398,6 +398,12 @@ Stripe integration is basic for demo purposes. For production:
 2. Add more payment methods
 3. Handle refunds and disputes
 
+## Netlify Environment Variables
+
+- **Note:** Production environment variable setup for Netlify is documented in `NETLIFY_ENV_SETUP.md` at the repository root. Follow that guide to add your `NEXT_PUBLIC_...` and server-only keys (Stripe, Firebase service account) in the Netlify dashboard and to handle multi-line secrets (service account JSON) safely.
+
+<!-- End of README additions for Netlify env -->
+
 ## Troubleshooting
 
 ### Firebase Errors
